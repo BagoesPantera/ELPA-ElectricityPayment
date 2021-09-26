@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Elpa</string>
+    <string name="pbp"><u>Pusat Bantuan Pelanggan.</u></string>
+    <string-array name="harga">
+        <item>Rp. 760.050,-</item>
+        <item>Rp. 803.250,-</item>
+        <item>Rp. 774.300,-</item>
+        <item>Rp. 794.020,-</item>
+        <item>Rp. 765.010,-</item>
+        <item>Rp. 773.900,-</item>
+        <item>Rp. 778.690,-</item>
+        <item>Rp. 769.450,-</item>
+        <item>Rp. 666.666,-</item>
+        <item>Rp. 789.420,-</item>
+        <item>Rp. 710.020,-</item>
+        <item>Rp. 807.524,-</item>
+        <item>Rp. 783.926,-</item>
+        <item>Rp. 798.578,-</item>
+        <item>Rp. 792.799,-</item>
+    </string-array>
+    <string-array name="token">
+        <item>80EOS-36NY5-03M90</item>
+        <item>Q9VY6-Q84JY-C6DJD</item>
+        <item>30NSW-8980N-IQKXI</item>
+        <item>WZMOW-2SQ1P-NIP3T</item>
+        <item>91PTD-Q6DVL-GZ1DE</item>
+        <item>0NY4U-BWL66-K63XD</item>
+        <item>GX7B2-27QUD-O59X6</item>
+        <item>DXUEG-3U1WX-W82V8</item>
+        <item>1675U-OJVCC-NNQOY</item>
+        <item>GTK43-FXSHD-062RT</item>
+        <item>TSIV7-BS8IH-QNTLJ</item>
+        <item>2SY6G-05BOC-0GWMU</item>
+        <item>8XRT7-ZGF46-F8TRH</item>
+        <item>8DZJ8-0ZIK3-QU1CT</item>
+        <item>5N8D8-F7BHA-4VAG0</item>
+    </string-array>
+</resources>

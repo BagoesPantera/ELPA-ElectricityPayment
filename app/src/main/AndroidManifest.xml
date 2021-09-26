@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.elpa">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".System.Homes"
+        android:allowBackup="true"
+        android:icon="@mipmap/elpa"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.sendemail" android:screenOrientation="portrait" ></activity>
+        <activity android:name=".Admin.pbpdata" android:screenOrientation="portrait"  />
+        <activity
+            android:name=".System.PopActivity"
+            android:theme="@style/AppTheme.PopMe" />
+        <activity android:name=".User.profile" android:screenOrientation="portrait"  />
+        <activity android:name=".Admin.userdata" android:screenOrientation="portrait"  />
+        <activity android:name=".Admin.utamaadmin" android:screenOrientation="portrait" />
+        <activity android:name=".System.Home" android:screenOrientation="portrait" />
+        <activity android:name=".User.pbp2" android:screenOrientation="portrait" />
+        <activity android:name=".User.pbp" android:screenOrientation="portrait" />
+        <activity android:name=".User.terimakasih" android:screenOrientation="portrait" />
+        <activity android:name=".User.konfirmasi" android:screenOrientation="portrait" />
+        <activity android:name=".User.pemilihanbank" android:screenOrientation="portrait" />
+        <activity android:name=".User.bulanbayar" android:screenOrientation="portrait" />
+        <activity android:name=".User.NEWDAFTAR" android:screenOrientation="portrait" />
+        <activity android:name=".User.menuutama" android:screenOrientation="portrait" />
+        <activity android:name=".User.lks3" android:screenOrientation="portrait" />
+        <activity android:name=".User.lks2" android:screenOrientation="portrait" />
+        <activity android:name=".User.lks1" android:screenOrientation="portrait" />
+        <activity android:name=".User.MainActivity" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

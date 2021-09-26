@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DEDEDE"
+    tools:context=".User.lks1">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="409dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="-4dp"
+        android:background="@drawable/latar_login"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Pembayaran"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/januari"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Januari"
+        android:textSize="55px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/februari"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Februari"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/april"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="April"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/februari" />
+
+    <Button
+        android:id="@+id/juni"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Juni"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/april" />
+
+    <Button
+        android:id="@+id/mei"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Mei"
+        android:textSize="55px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maret" />
+
+    <Button
+        android:id="@+id/agustus"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Agustus"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/juni" />
+
+
+    <Button
+        android:id="@+id/juli"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Juli"
+        android:textSize="55px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mei" />
+
+    <Button
+        android:id="@+id/maret"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Maret"
+        android:textSize="55px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/januari" />
+
+    <Button
+        android:id="@+id/september"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="September"
+        android:textSize="55px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/juli" />
+
+    <Button
+        android:id="@+id/november"
+        android:layout_width="167dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="november"
+        android:textSize="55px"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/september" />
+
+    <Button
+        android:id="@+id/oktober"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="oktober"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agustus" />
+
+    <Button
+        android:id="@+id/desember"
+        android:layout_width="167dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/textfieldputihradius"
+        android:text="Desember"
+        android:textSize="55px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oktober" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="120dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/button_kotak"
+        android:text="Kembali"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

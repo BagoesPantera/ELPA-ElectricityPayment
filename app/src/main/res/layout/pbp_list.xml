@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rllayoutpbp"
+    android:background="#DEDEDE">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/emailpbp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Textview"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content"
+            android:text="Input"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/inputpbp"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView100"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/garis" />
+</LinearLayout>
